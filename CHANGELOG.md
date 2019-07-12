@@ -1,7 +1,7 @@
 > The list of software installed shouldn't be considered complete; its mostly just what is 
 > explicitly installed and version controlled beyond the base image.
 
-## `structural/buildbase:1.0`
+## `structural/cibase:1.0`
 
 | Binary     | Version          | Description                          |
 |------------|------------------|--------------------------------------|
