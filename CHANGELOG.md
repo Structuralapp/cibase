@@ -1,25 +1,46 @@
 > The list of software installed shouldn't be considered complete; its mostly just what is 
 > explicitly installed and version controlled beyond the base image.
 
+### `structural/cibase:1.4` (2019-10-01)
+
+| Binary     | Change        | Version          | Description                          |
+|------------|---------------|------------------|--------------------------------------|
+| Base Image | -             | `alpine:3.10.2`  | -                                    |
+| `aws`      | up (patch x9) | `1.16.249`       | AWS command line tools               |
+| `cdk`      | -             | `1.8.0`          | AWS Cloud Development Kit            |
+| `eksctl`   | -             | `0.5.3`          | AWS EKS tool                         |
+| `git`      | -             | `2.22.0`         | VCS                                  |
+| `helm`     | -             | `2.14.3`         | Kubernetes package manager           |
+| `jq`       | -             | `v20190408-1671` | JSON command line processor          |
+| `kubectl`  | -             | `1.16.0`         | Kubernetes CLI                       |
+| `node`     | -             | `10.16.3`        | NodeJS                               |
+| `npm`      | -             | `6.9.0`          | NodeJS package manager               |
+| `pip3`     | -             | `19.0.3`         | Python 3 package manager             |
+| `python`   | -             | `2.7.16`         | Python 2                             |
+| `python3`  | -             | `3.7.3`          | Python 3                             |
+| `sam`      | up (minor x1) | `0.22.0`         | AWS Serverless Application Model CLI |
+| `ssh`      | add           | `8.0p1`          | SSH                                  |
+| `yq`       | -             | `2.4.0`          | YAML command line processor          |
+
 ### `structural/cibase:1.3` (2019-10-01)
 
-| Binary     | Change         | Version          | Description                          |
-|------------|----------------|------------------|--------------------------------------|
-| Base Image | -              | `alpine:3.10.2`  | -                                    |
-| `aws`      | -              | `1.16.240`       | AWS command line tools               |
-| `cdk`      | -              | `1.8.0`          | AWS Cloud Development Kit            |
-| `eksctl`   | -              | `0.5.3`          | AWS EKS tool                         |
-| `git`      | add            | `2.22.0`         | VCS                                  |
-| `helm`     | -              | `2.14.3`         | Kubernetes package manager           |
-| `jq`       | -              | `v20190408-1671` | JSON command line processor          |
-| `kubectl`  | -              | `1.16.0`         | Kubernetes CLI                       |
-| `node`     | -              | `10.16.3`        | NodeJS                               |
-| `npm`      | -              | `6.9.0`          | NodeJS package manager               |
-| `pip3`     | -              | `19.0.3`         | Python 3 package manager             |
-| `python`   | -              | `2.7.16`         | Python 2                             |
-| `python3`  | -              | `3.7.3`          | Python 3                             |
-| `sam`      | -              | `0.21.0`         | AWS Serverless Application Model CLI |
-| `yq`       | -              | `2.4.0`          | YAML command line processor          |
+| Binary     | Change | Version          | Description                          |
+|------------|--------|------------------|--------------------------------------|
+| Base Image | -      | `alpine:3.10.2`  | -                                    |
+| `aws`      | -      | `1.16.240`       | AWS command line tools               |
+| `cdk`      | -      | `1.8.0`          | AWS Cloud Development Kit            |
+| `eksctl`   | -      | `0.5.3`          | AWS EKS tool                         |
+| `git`      | add    | `2.22.0`         | VCS                                  |
+| `helm`     | -      | `2.14.3`         | Kubernetes package manager           |
+| `jq`       | -      | `v20190408-1671` | JSON command line processor          |
+| `kubectl`  | -      | `1.16.0`         | Kubernetes CLI                       |
+| `node`     | -      | `10.16.3`        | NodeJS                               |
+| `npm`      | -      | `6.9.0`          | NodeJS package manager               |
+| `pip3`     | -      | `19.0.3`         | Python 3 package manager             |
+| `python`   | -      | `2.7.16`         | Python 2                             |
+| `python3`  | -      | `3.7.3`          | Python 3                             |
+| `sam`      | -      | `0.21.0`         | AWS Serverless Application Model CLI |
+| `yq`       | -      | `2.4.0`          | YAML command line processor          |
 
 ### `structural/cibase:1.2` (2019-09-18)
 
