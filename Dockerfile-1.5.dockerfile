@@ -26,12 +26,17 @@ FROM alpine:3.10.2
 RUN apk update
 RUN apk add \
   "build-base=0.5-r1" \
+  "cairo-dev" \
   "curl" \
+  "g++" \
+  "giflib-dev" \
   "git=2.22.0-r0" \
+  "jpeg-dev" \
   "jq" \
   "nodejs=10.16.3-r0" \
   "npm=10.16.3-r0" \
   "openssh-client=8.0_p1-r0" \
+  "pango-dev" \
   "pixman=0.38.4-r0" \
   "python=2.7.16-r1" \
   "python-dev=2.7.16-r1" \
