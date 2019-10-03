@@ -1,4 +1,7 @@
-.PHONY: 1.4 1.3 1.2 1.1 1.0
+.PHONY: 1.5 1.4 1.3 1.2 1.1 1.0
+
+1.5:
+	docker build -t structural/cibase:1.5 -f Dockerfile-1.5.dockerfile .
 
 1.4:
 	docker build -t structural/cibase:1.4 -f Dockerfile-1.4.dockerfile .

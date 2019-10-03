@@ -1,6 +1,28 @@
 > The list of software installed shouldn't be considered complete; its mostly just what is 
 > explicitly installed and version controlled beyond the base image.
 
+### `structural/cibase:1.5` (2019-10-03)
+
+| Binary     | Change        | Version          | Description                          |
+|------------|---------------|------------------|--------------------------------------|
+| Base Image | -             | `alpine:3.10.2`  | -                                    |
+| `aws`      | -             | `1.16.249`       | AWS command line tools               |
+| `cdk`      | -             | `1.8.0`          | AWS Cloud Development Kit            |
+| `eksctl`   | -             | `0.5.3`          | AWS EKS tool                         |
+| `git`      | -             | `2.22.0`         | VCS                                  |
+| `helm`     | -             | `2.14.3`         | Kubernetes package manager           |
+| `jq`       | -             | `v20190408-1671` | JSON command line processor          |
+| `kubectl`  | -             | `1.16.0`         | Kubernetes CLI                       |
+| `node`     | -             | `10.16.3`        | NodeJS                               |
+| `npm`      | -             | `6.9.0`          | NodeJS package manager               |
+| `pip3`     | -             | `19.0.3`         | Python 3 package manager             |
+| `pixman`   | add           | `0.38.4`         | System image manipulation library    |    
+| `python`   | -             | `2.7.16`         | Python 2                             |
+| `python3`  | up (patch x1) | `3.7.4`          | Python 3                             |
+| `sam`      | -             | `0.22.0`         | AWS Serverless Application Model CLI |
+| `ssh`      | -             | `8.0p1`          | SSH                                  |
+| `yq`       | -             | `2.4.0`          | YAML command line processor          |
+
 ### `structural/cibase:1.4` (2019-10-01)
 
 | Binary     | Change        | Version          | Description                          |
