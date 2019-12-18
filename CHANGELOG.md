@@ -1,6 +1,28 @@
 > The list of software installed shouldn't be considered complete; its mostly just what is 
 > explicitly installed and version controlled beyond the base image.
 
+### `structural/cibase:2.0` (2019-12-18)
+
+| Binary     | Change         | Version          | Description                          |
+|------------|----------------|------------------|--------------------------------------|
+| Base Image | up (patch x1)  | `alpine:3.10.3`  | -                                    |
+| `aws`      | up (patch x56) | `1.16.305`       | AWS command line tools               |
+| `cdk`      | up (minor x11) | `1.19.0`         | AWS Cloud Development Kit            |
+| `eksctl`   | up (minor x6)  | `0.11.1`         | AWS EKS tool                         |
+| `git`      | up (patch x2)  | `2.22.2`         | VCS                                  |
+| `helm`     | up (major x1)  | `3.0.2`          | Kubernetes package manager           |
+| `jq`       | -              | `v20190408-1671` | JSON command line processor          |
+| `kubectl`  | up (minor x1)  | `1.17.0`         | Kubernetes CLI                       |
+| `node`     | -              | `10.16.3`        | NodeJS                               |
+| `npm`      | -              | `6.9.0`          | NodeJS package manager               |
+| `pip3`     | up (patch x2)  | `19.2.3`         | Python 3 package manager             |
+| `pixman`   | -              | `0.38.4`         | System image manipulation library    |
+| `python`   | -              | `2.7.16`         | Python 2                             |
+| `python3`  | up (patch x1)  | `3.7.5`          | Python 3                             |
+| `sam`      | up (patch x16) | `0.38.0`         | AWS Serverless Application Model CLI |
+| `ssh`      | up (minor x1)  | `8.1p1`          | SSH                                  |
+| `yq`       | -              | `2.4.0`          | YAML command line processor          |
+
 ### `structural/cibase:1.5` (2019-10-03)
 
 | Binary     | Change        | Version          | Description                          |
@@ -16,7 +38,7 @@
 | `node`     | -             | `10.16.3`        | NodeJS                               |
 | `npm`      | -             | `6.9.0`          | NodeJS package manager               |
 | `pip3`     | -             | `19.0.3`         | Python 3 package manager             |
-| `pixman`   | add           | `0.38.4`         | System image manipulation library    |    
+| `pixman`   | add           | `0.38.4`         | System image manipulation library    |
 | `python`   | -             | `2.7.16`         | Python 2                             |
 | `python3`  | up (patch x1) | `3.7.4`          | Python 3                             |
 | `sam`      | -             | `0.22.0`         | AWS Serverless Application Model CLI |
