@@ -1,5 +1,30 @@
-> The list of software installed shouldn't be considered complete; its mostly just what is 
+> The list of software installed shouldn't be considered complete; its mostly just what is
 > explicitly installed and version controlled beyond the base image.
+
+### `structural/cibase:3.0` (2020-04-15)
+
+| Binary      | Change         | Version         | Description                          |
+|-------------|----------------|-----------------|--------------------------------------|
+| Base Image  | up (minor x1)  | `alpine:3.11.5` | -                                    |
+| `aws`       | up (minor x2)  | `1.18.39`       | AWS command line tools               |
+| `cdk`       | up (minor x13) | `1.32.2`        | AWS Cloud Development Kit            |
+| `eksctl`    | up (minor x6)  | `0.17.0`        | AWS EKS tool                         |
+| `git`       | up (minor x2)  | `2.24.2`        | VCS                                  |
+| `helm`      | -              | `3.0.2`         | Kubernetes package manager           |
+| `jq`        | up             | `v20191114-85`  | JSON command line processor          |
+| `kubectl`   | -              | `1.17.0`        | Kubernetes CLI                       |
+| `node`      | up (major x2)  | `12.15.0`       | NodeJS                               |
+| `npm`       | up (minor x4)  | `6.13.4`        | NodeJS package manager               |
+| `pip3`      | -              | `19.2.3`        | Python 3 package manager             |
+| `python`    | -              | `2.7.16`        | Python 2                             |
+| `python3`   | up (minor x1)  | `3.8.2`         | Python 3                             |
+| `sam`       | up (minor x9)  | `0.47.0`        | AWS Serverless Application Model CLI |
+| `ssh`       | -              | `8.1p1`         | SSH                                  |
+| `terraform` | add            | `0.12.24`       | Infrastructure management            |
+| `yq`        | -              | `2.4.0`         | YAML command line processor          |
+
+> The dockerfiles have, henceforth, removed most occurances of explicit version tags on packages being installed.
+> The table above encodes the versions which were installed at the time the image was built.
 
 ### `structural/cibase:2.0` (2019-12-18)
 

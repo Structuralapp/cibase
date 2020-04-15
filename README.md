@@ -1,19 +1,16 @@
 # CIBase
 
-CIBase is a base docker image which does nothing when executed. But its a useful base for
-running CI builds, as it ships a wide range of binaries pre-installed. Check out the
-`CHANGELOG.md` for a list of the software each tagged version includes.
+CIBase has a few base docker images which do nothing when executed. But they're a useful base for
+running CI builds, as they ship commonly used binaries pre-installed. Check out the
+`CHANGELOG.md` for a list of the software each image and tag includes.
 
 If you just need NodeJS, use `node:*`. But if you need node, python 3.7, the aws cli, and kubectl...
 maybe use this.
 
-## Usage
+## Images
 
-```dockerfile
-FROM structural/cibase:1.2
-
-# Write the rest of your Dockerfile
-```
+- `structural/cibase`: Very large image which includes a bunch of different utilities.
+- `structural/cibase-tf`: Focused image designed for running cloud provisioning w/ terraform.
 
 ## Versioning
 

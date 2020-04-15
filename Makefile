@@ -1,4 +1,7 @@
-.PHONY: cibase-2.0 cibase-1.5 cibase-1.4 cibase-1.3 cibase-1.2 cibase-1.1 cibase-1.0
+.PHONY: cibase-2.0 cibase-tf-2.0 cibase-1.5 cibase-1.4 cibase-1.3 cibase-1.2 cibase-1.1 cibase-1.0
+
+cibase-3.0:
+	docker build -t structural/cibase:3.0 -f cibase-3.0.dockerfile .
 
 cibase-2.0:
 	docker build -t structural/cibase:2.0 -f cibase-2.0.dockerfile .
