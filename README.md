@@ -10,7 +10,6 @@ maybe use this.
 ## Images
 
 - `structural/cibase`: Very large image which includes a bunch of different utilities.
-- `structural/cibase-tf`: Focused image designed for running cloud provisioning w/ terraform.
 
 ## Versioning
 
