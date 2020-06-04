@@ -1,6 +1,28 @@
 > The list of software installed shouldn't be considered complete; its mostly just what is
 > explicitly installed and version controlled beyond the base image.
 
+### `structural/cibase:3.1` (2020-06-04)
+
+| Binary      | Change | Version         | Description                          |
+|-------------|--------|-----------------|--------------------------------------|
+| Base Image  | ^      | `alpine:3.12.0` | -                                    |
+| `aws`       |        | `1.18.39`       | AWS command line tools               |
+| `cdk`       |        | `1.32.2`        | AWS Cloud Development Kit            |
+| `eksctl`    | ^      | `0.20.0`        | AWS EKS tool                         |
+| `git`       |        | `2.24.2`        | VCS                                  |
+| `helm`      |        | `3.0.2`         | Kubernetes package manager           |
+| `jq`        |        | `v20191114-85`  | JSON command line processor          |
+| `kubectl`   | ^      | `1.18.3`        | Kubernetes CLI                       |
+| `node`      |        | `12.15.0`       | NodeJS                               |
+| `npm`       |        | `6.13.4`        | NodeJS package manager               |
+| `pip3`      |        | `19.2.3`        | Python 3 package manager             |
+| `python`    |        | `2.7.16`        | Python 2                             |
+| `python3`   |        | `3.8.2`         | Python 3                             |
+| `sam`       |        | `0.47.0`        | AWS Serverless Application Model CLI |
+| `ssh`       |        | `8.1p1`         | SSH                                  |
+| `terraform` | ^      | `0.13.0-beta1`  | Infrastructure management            |
+| `yq`        |        | `2.4.0`         | YAML command line processor          |
+
 ### `structural/cibase:3.0` (2020-04-15)
 
 | Binary      | Change         | Version         | Description                          |
